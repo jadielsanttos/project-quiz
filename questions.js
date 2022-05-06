@@ -1,11 +1,11 @@
 let questions = [
     {
-        question: 'Em qual elemento HTML nós colocamos o javascript?',
+        question: 'Qual propriedade do css usamos para mudar a cor de fundo de uma página?',
         options: [
-            'tag js',
-            'tag script',
-            'tag scripting',
-            'tag javascript'
+            'background-image',
+            'background-color',
+            'background-size',
+            'color'
         ],
         answer: 1
     },
@@ -28,10 +28,11 @@ let questions = [
         answer: 1
     },
     {
-        question: 'Um arquivo javascript externo precisa ter a tag script',
+        question: 'Como se declara uma variável no javascript?',
         options: [
-            'Verdade',
-            'Falso'
+            '$numero = 10',
+            'let numero = 10',
+            'numero = 10'
         ],
         answer: 1
     },
@@ -66,7 +67,7 @@ let questions = [
     {
         question: 'Como escrever uma condicional IF no Javascript?',
         options: [
-            'if i = 5',
+            'if {i = 5}',
             'if i == 5 then',
             'if (i == 5)',
             'if i = 5 then'
@@ -74,14 +75,14 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Como fazer um if que executa um código caso "i" for diferente de 5',
+        question: 'Como fazer um if que executa um código caso "n" for menor ou igual a 5',
         options: [
-            'if (i != 5)',
-            'if (i <> 5)',
-            'if i <> 5',
-            'if i =! 5 then'
+            'if (n != 5)',
+            'if (n >= 5)',
+            'if n <> 5',
+            'if (n <= 5)'
         ],
-        answer: 0
+        answer: 3
     },
     {
         question: 'Como o loop while começa?',
