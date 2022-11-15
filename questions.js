@@ -1,6 +1,6 @@
 let questions = [
     {
-        question: 'Qual propriedade do css usamos para mudar a cor de fundo de uma página?',
+        question: ' 1 - Qual propriedade do css usamos para mudar a cor de fundo de uma página?',
         options: [
             'background-image',
             'background-color',
@@ -10,7 +10,7 @@ let questions = [
         answer: 1
     },
     {
-        question: 'Onde é o local certo de colocar o javascript?',
+        question: '2 - Onde é o local certo de colocar o javascript?',
         options: [
             'Na tag body',
             'Na tag head',
@@ -19,7 +19,7 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Qual a sintaxe correta para adicionar um arquivo javascript externo na tag script?',
+        question: '3 - Qual a sintaxe correta para adicionar um arquivo javascript externo na tag script?',
         options: [
             'name="xxx.js"',
             'src="xxx.js"',
@@ -28,7 +28,7 @@ let questions = [
         answer: 1
     },
     {
-        question: 'Como se declara uma variável no javascript?',
+        question: '4 - Como se declara uma variável no javascript?',
         options: [
             '$numero = 10',
             'let numero = 10',
@@ -37,7 +37,7 @@ let questions = [
         answer: 1
     },
     {
-        question: 'Como escrever um "Olá Mundo" em um alertbox?',
+        question: '5 - Como escrever um "Olá Mundo" em um alertbox?',
         options: [
             'alertBox("Olá Mundo")',
             'msgBox("Olá Mundo")',
@@ -47,7 +47,7 @@ let questions = [
         answer: 3
     },
     {
-        question: 'Como você cria uma função no Javascript?',
+        question: '6 - Como você cria uma função no Javascript?',
         options: [
             'function:minhaFuncao()',
             'function = minhaFuncao()',
@@ -56,7 +56,7 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Como chamar uma função chamada "minhaFuncao"?',
+        question: '7 - Como chamar uma função chamada "minhaFuncao"?',
         options: [
             'call minhaFuncao',
             'call function minhaFuncao',
@@ -65,7 +65,7 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Como escrever uma condicional IF no Javascript?',
+        question: '8 - Como escrever uma condicional IF no Javascript?',
         options: [
             'if {i = 5}',
             'if i == 5 then',
@@ -75,7 +75,7 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Como fazer um if que executa um código caso "n" for menor ou igual a 5',
+        question: '9 - Como fazer um if que executa um código caso "n" for menor ou igual a 5',
         options: [
             'if (n != 5)',
             'if (n >= 5)',
@@ -85,7 +85,7 @@ let questions = [
         answer: 3
     },
     {
-        question: 'Como o loop while começa?',
+        question: '10 - Como o loop while começa?',
         options: [
             'while (i <= 10)',
             'while (i <= 10; i++)',
