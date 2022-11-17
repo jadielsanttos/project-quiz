@@ -2,11 +2,9 @@
 let currentQuestion = 0;
 let correctAnswers = 0;
 
-showQuestion();
-
-
 //Events 
 document.querySelector('.scoreArea button').addEventListener('click', resetEvent);
+document.querySelector('.start-test button').addEventListener('click', showQuestion);
 
 // Functions
 function showQuestion() {
@@ -19,6 +17,8 @@ function showQuestion() {
 
         document.querySelector('.scoreArea').style.display = 'none';
         document.querySelector('.questionArea').style.display = 'block';
+        document.querySelector('.progress').style.display = 'block';
+        document.querySelector('.start-test').style.display = 'none';
 
         document.querySelector('.question').innerHTML = q.question;
 
@@ -55,7 +55,7 @@ function finishQuiz() {
 
     if(points < 30) {  
         document.querySelector('.scoreArea img').src = 'images/emoji-cry.png';
-        document.querySelector('.scoreText1').innerHTML = 'Sinto muito';
+        document.querySelector('.scoreText1').innerHTML = 'Sinto muito!';
         document.querySelector('.scorePct').style.color = '#871508';
     }else if(points > 30 && points < 70) {
         document.querySelector('.scoreArea img').src = 'images/emoji-happy.png';
@@ -68,7 +68,7 @@ function finishQuiz() {
         
     }
 
-    document.querySelector('.scorePct').innerHTML = `Acertou ${points}%`;
+    document.querySelector('.scorePct').innerHTML = `Você acertou ${points}%`;
     document.querySelector('.scoreText2').innerHTML = `De ${questions.length} questões você acertou ${correctAnswers}.`;
 
     document.querySelector('.questionArea').style.display = 'none';
